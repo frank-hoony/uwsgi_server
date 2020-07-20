@@ -1,0 +1,552 @@
+*** Starting uWSGI 2.0.19.1 (64bit) on [Wed Jul  1 09:58:39 2020] ***
+compiled with version: 7.2.1 20170915 (Red Hat 7.2.1-2) on 30 June 2020 06:29:41
+os: Linux-4.14.181-108.257.amzn1.x86_64 #1 SMP Wed May 27 02:43:03 UTC 2020
+nodename: ip-172-31-38-48
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ec2-user/test
+detected binary path: /home/ec2-user/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ec2-user/test
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3858
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+The -s/--socket option is missing and stdin is not a socket.
+*** Starting uWSGI 2.0.19.1 (64bit) on [Wed Jul  1 09:59:59 2020] ***
+compiled with version: 7.2.1 20170915 (Red Hat 7.2.1-2) on 30 June 2020 06:29:41
+os: Linux-4.14.181-108.257.amzn1.x86_64 #1 SMP Wed May 27 02:43:03 UTC 2020
+nodename: ip-172-31-38-48
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ec2-user/test
+detected binary path: /home/ec2-user/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ec2-user/test
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3858
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :5000 fd 4
+spawned uWSGI http 1 (pid: 20735)
+uwsgi socket 0 bound to TCP address 127.0.0.1:45405 (port auto-assigned) fd 3
+Python version: 3.6.10 (default, Feb 10 2020, 19:55:14)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-28)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x21aa9a0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72904 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x21aa9a0 pid: 20734 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 20734, cores: 1)
+[pid: 20734|app: 0|req: 1/1] 127.0.0.1 () {28 vars in 297 bytes} [Wed Jul  1 10:00:55 2020] GET / => generated 15 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 20734|app: 0|req: 2/2] 127.0.0.1 () {28 vars in 297 bytes} [Sun Jul  5 08:29:53 2020] GET / => generated 15 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Jul 14 04:34:11 2020] ***
+compiled with version: 7.2.1 20170915 (Red Hat 7.2.1-2) on 30 June 2020 06:29:41
+os: Linux-4.14.181-108.257.amzn1.x86_64 #1 SMP Wed May 27 02:43:03 UTC 2020
+nodename: ip-172-31-38-48
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ec2-user/test
+detected binary path: /home/ec2-user/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ec2-user/test
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3858
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :5000 fd 4
+spawned uWSGI http 1 (pid: 8920)
+uwsgi socket 0 bound to TCP address 127.0.0.1:36653 (port auto-assigned) fd 3
+Python version: 3.6.10 (default, Feb 10 2020, 19:55:14)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-28)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x9499b0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72904 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x9499b0 pid: 8919 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 8919, cores: 1)
+[pid: 8919|app: 0|req: 1/1] 127.0.0.1 () {28 vars in 296 bytes} [Tue Jul 14 04:36:47 2020] GET / => generated 15 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 8919|app: 0|req: 2/2] 218.153.89.113 () {36 vars in 698 bytes} [Tue Jul 14 05:44:03 2020] GET / => generated 15 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 8919|app: 0|req: 3/3] 218.153.89.113 () {36 vars in 643 bytes} [Tue Jul 14 05:44:03 2020] GET /favicon.ico => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 8919|app: 0|req: 4/4] 218.153.89.113 () {36 vars in 605 bytes} [Tue Jul 14 05:46:33 2020] GET / => generated 15 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 8919|app: 0|req: 5/5] 218.153.89.113 () {36 vars in 575 bytes} [Tue Jul 14 05:46:33 2020] GET /favicon.ico => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Jul 14 05:47:09 2020] ***
+compiled with version: 7.2.1 20170915 (Red Hat 7.2.1-2) on 30 June 2020 06:29:41
+os: Linux-4.14.181-108.257.amzn1.x86_64 #1 SMP Wed May 27 02:43:03 UTC 2020
+nodename: ip-172-31-38-48
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ec2-user/test
+detected binary path: /home/ec2-user/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ec2-user/test
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3858
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :5000 fd 4
+spawned uWSGI http 1 (pid: 9099)
+uwsgi socket 0 bound to TCP address 127.0.0.1:44187 (port auto-assigned) fd 3
+Python version: 3.6.10 (default, Feb 10 2020, 19:55:14)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-28)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x17c99b0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72904 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+  File "./test.py", line 6
+SyntaxError: (unicode error) 'utf-8' codec can't decode byte 0xbc in position 4: invalid start byte
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 9098, cores: 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 9098|app: -1|req: -1/1] 218.153.89.113 () {36 vars in 605 bytes} [Tue Jul 14 05:47:11 2020] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Jul 14 05:47:44 2020] ***
+compiled with version: 7.2.1 20170915 (Red Hat 7.2.1-2) on 30 June 2020 06:29:41
+os: Linux-4.14.181-108.257.amzn1.x86_64 #1 SMP Wed May 27 02:43:03 UTC 2020
+nodename: ip-172-31-38-48
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ec2-user/test
+detected binary path: /home/ec2-user/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ec2-user/test
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3858
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:5000).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Jul 14 05:47:51 2020] ***
+compiled with version: 7.2.1 20170915 (Red Hat 7.2.1-2) on 30 June 2020 06:29:41
+os: Linux-4.14.181-108.257.amzn1.x86_64 #1 SMP Wed May 27 02:43:03 UTC 2020
+nodename: ip-172-31-38-48
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ec2-user/test
+detected binary path: /home/ec2-user/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ec2-user/test
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3858
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:5000).
+bind(): Address already in use [core/socket.c line 769]
+--- no python application found, check your startup logs for errors ---
+[pid: 9098|app: -1|req: -1/2] 218.153.89.113 () {36 vars in 605 bytes} [Tue Jul 14 05:48:12 2020] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 9098|app: -1|req: -1/3] 218.153.89.113 () {36 vars in 605 bytes} [Tue Jul 14 05:48:13 2020] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 9098|app: -1|req: -1/4] 218.153.89.113 () {36 vars in 605 bytes} [Tue Jul 14 05:48:19 2020] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 9098|app: -1|req: -1/5] 218.153.89.113 () {36 vars in 605 bytes} [Tue Jul 14 05:48:22 2020] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 9098|app: -1|req: -1/6] 218.153.89.113 () {36 vars in 605 bytes} [Tue Jul 14 05:48:23 2020] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 9098|app: -1|req: -1/7] 218.153.89.113 () {36 vars in 698 bytes} [Tue Jul 14 05:48:54 2020] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 9098|app: -1|req: -1/8] 218.153.89.113 () {36 vars in 698 bytes} [Tue Jul 14 05:49:10 2020] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Jul 14 05:49:46 2020] ***
+compiled with version: 7.2.1 20170915 (Red Hat 7.2.1-2) on 30 June 2020 06:29:41
+os: Linux-4.14.181-108.257.amzn1.x86_64 #1 SMP Wed May 27 02:43:03 UTC 2020
+nodename: ip-172-31-38-48
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ec2-user/test
+detected binary path: /home/ec2-user/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ec2-user/test
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3858
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :5000 fd 4
+spawned uWSGI http 1 (pid: 9133)
+uwsgi socket 0 bound to TCP address 127.0.0.1:34567 (port auto-assigned) fd 3
+Python version: 3.6.10 (default, Feb 10 2020, 19:55:14)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-28)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7939b0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72904 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7939b0 pid: 9132 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 9132, cores: 1)
+[pid: 9132|app: 0|req: 1/1] 127.0.0.1 () {28 vars in 297 bytes} [Tue Jul 14 05:49:53 2020] GET / => generated 2 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 78 bytes (1 switches on core 0)
+[pid: 9132|app: 0|req: 2/2] 218.153.89.113 () {38 vars in 729 bytes} [Tue Jul 14 05:49:55 2020] GET / => generated 2 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 78 bytes (1 switches on core 0)
+[pid: 9132|app: 0|req: 3/3] 218.153.89.113 () {38 vars in 729 bytes} [Tue Jul 14 05:53:04 2020] GET / => generated 2 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 78 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Jul 14 05:53:09 2020] ***
+compiled with version: 7.2.1 20170915 (Red Hat 7.2.1-2) on 30 June 2020 06:29:41
+os: Linux-4.14.181-108.257.amzn1.x86_64 #1 SMP Wed May 27 02:43:03 UTC 2020
+nodename: ip-172-31-38-48
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ec2-user/test
+detected binary path: /home/ec2-user/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ec2-user/test
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3858
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:5000).
+bind(): Address already in use [core/socket.c line 769]
+[pid: 9132|app: 0|req: 4/4] 218.153.89.113 () {38 vars in 729 bytes} [Tue Jul 14 05:53:13 2020] GET / => generated 2 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 78 bytes (1 switches on core 0)
+[pid: 9132|app: 0|req: 5/5] 218.153.89.113 () {38 vars in 729 bytes} [Tue Jul 14 05:53:14 2020] GET / => generated 2 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 78 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Jul 14 05:53:22 2020] ***
+compiled with version: 7.2.1 20170915 (Red Hat 7.2.1-2) on 30 June 2020 06:29:41
+os: Linux-4.14.181-108.257.amzn1.x86_64 #1 SMP Wed May 27 02:43:03 UTC 2020
+nodename: ip-172-31-38-48
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ec2-user/test
+detected binary path: /home/ec2-user/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ec2-user/test
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3858
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :5000 fd 4
+spawned uWSGI http 1 (pid: 9161)
+uwsgi socket 0 bound to TCP address 127.0.0.1:35107 (port auto-assigned) fd 3
+Python version: 3.6.10 (default, Feb 10 2020, 19:55:14)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-28)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1c079b0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72904 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1c079b0 pid: 9160 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 9160, cores: 1)
+[pid: 9160|app: 0|req: 1/1] 218.153.89.113 () {38 vars in 729 bytes} [Tue Jul 14 05:53:23 2020] GET / => generated 206 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Jul 14 05:54:19 2020] ***
+compiled with version: 7.2.1 20170915 (Red Hat 7.2.1-2) on 30 June 2020 06:29:41
+os: Linux-4.14.181-108.257.amzn1.x86_64 #1 SMP Wed May 27 02:43:03 UTC 2020
+nodename: ip-172-31-38-48
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ec2-user/test
+detected binary path: /home/ec2-user/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ec2-user/test
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3858
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :5000 fd 4
+spawned uWSGI http 1 (pid: 9172)
+uwsgi socket 0 bound to TCP address 127.0.0.1:39077 (port auto-assigned) fd 3
+Python version: 3.6.10 (default, Feb 10 2020, 19:55:14)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-28)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x24e29b0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72904 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x24e29b0 pid: 9171 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 9171, cores: 1)
+[pid: 9171|app: 0|req: 1/1] 218.153.89.113 () {38 vars in 729 bytes} [Tue Jul 14 05:54:21 2020] GET / => generated 24 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 9171|app: 0|req: 2/2] 218.153.89.113 () {36 vars in 645 bytes} [Tue Jul 14 05:54:21 2020] GET /return_value => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 9171|app: 0|req: 3/3] 218.153.89.113 () {38 vars in 729 bytes} [Tue Jul 14 05:54:21 2020] GET / => generated 24 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 9171|app: 0|req: 4/4] 218.153.89.113 () {36 vars in 645 bytes} [Tue Jul 14 05:54:21 2020] GET /return_value => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Jul 14 05:56:13 2020] ***
+compiled with version: 7.2.1 20170915 (Red Hat 7.2.1-2) on 30 June 2020 06:29:41
+os: Linux-4.14.181-108.257.amzn1.x86_64 #1 SMP Wed May 27 02:43:03 UTC 2020
+nodename: ip-172-31-38-48
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ec2-user/test
+detected binary path: /home/ec2-user/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ec2-user/test
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3858
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :5000 fd 4
+spawned uWSGI http 1 (pid: 9183)
+uwsgi socket 0 bound to TCP address 127.0.0.1:37989 (port auto-assigned) fd 3
+Python version: 3.6.10 (default, Feb 10 2020, 19:55:14)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-28)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x133f9b0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72904 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x133f9b0 pid: 9182 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 9182, cores: 1)
+[pid: 9182|app: 0|req: 1/1] 218.153.89.113 () {38 vars in 729 bytes} [Tue Jul 14 05:56:15 2020] GET / => generated 13 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Jul 14 05:56:42 2020] ***
+compiled with version: 7.2.1 20170915 (Red Hat 7.2.1-2) on 30 June 2020 06:29:41
+os: Linux-4.14.181-108.257.amzn1.x86_64 #1 SMP Wed May 27 02:43:03 UTC 2020
+nodename: ip-172-31-38-48
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ec2-user/test
+detected binary path: /home/ec2-user/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ec2-user/test
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3858
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :5000 fd 4
+spawned uWSGI http 1 (pid: 9198)
+uwsgi socket 0 bound to TCP address 127.0.0.1:38765 (port auto-assigned) fd 3
+Python version: 3.6.10 (default, Feb 10 2020, 19:55:14)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-28)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xd619b0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72904 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xd619b0 pid: 9197 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 9197, cores: 1)
+"<img src="">
+[pid: 9197|app: 0|req: 1/1] 218.153.89.113 () {38 vars in 729 bytes} [Tue Jul 14 05:56:44 2020] GET / => generated 13 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Jul 14 05:57:42 2020] ***
+compiled with version: 7.2.1 20170915 (Red Hat 7.2.1-2) on 30 June 2020 06:29:41
+os: Linux-4.14.181-108.257.amzn1.x86_64 #1 SMP Wed May 27 02:43:03 UTC 2020
+nodename: ip-172-31-38-48
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ec2-user/test
+detected binary path: /home/ec2-user/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ec2-user/test
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3858
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :5000 fd 4
+spawned uWSGI http 1 (pid: 9216)
+uwsgi socket 0 bound to TCP address 127.0.0.1:41925 (port auto-assigned) fd 3
+Python version: 3.6.10 (default, Feb 10 2020, 19:55:14)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-28)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x23559b0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72904 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x23559b0 pid: 9215 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 9215, cores: 1)
+<img src="https://post-phinf.pstatic.net/MjAxOTEyMzFfMTQz/MDAxNTc3NzU4NjE3ODE5.hyQQVHg1LCrJ1Y_J1NPfFIXFt8PXajxhLVxiV2ImdPcg.cHN_veuJwQcRzE8oHOfxjlz_AUXds5sRFrDRBtaEMQ0g.JPEG/%ED%8E%AD%EC%88%98%ED%95%98.jpg?type=w1200">
+[pid: 9215|app: 0|req: 1/1] 218.153.89.113 () {38 vars in 729 bytes} [Tue Jul 14 05:57:43 2020] GET / => generated 218 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+<img src="https://post-phinf.pstatic.net/MjAxOTEyMzFfMTQz/MDAxNTc3NzU4NjE3ODE5.hyQQVHg1LCrJ1Y_J1NPfFIXFt8PXajxhLVxiV2ImdPcg.cHN_veuJwQcRzE8oHOfxjlz_AUXds5sRFrDRBtaEMQ0g.JPEG/%ED%8E%AD%EC%88%98%ED%95%98.jpg?type=w1200">
+[pid: 9215|app: 0|req: 2/2] 223.62.21.145 () {36 vars in 612 bytes} [Tue Jul 14 07:13:42 2020] GET / => generated 218 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+<img src="https://post-phinf.pstatic.net/MjAxOTEyMzFfMTQz/MDAxNTc3NzU4NjE3ODE5.hyQQVHg1LCrJ1Y_J1NPfFIXFt8PXajxhLVxiV2ImdPcg.cHN_veuJwQcRzE8oHOfxjlz_AUXds5sRFrDRBtaEMQ0g.JPEG/%ED%8E%AD%EC%88%98%ED%95%98.jpg?type=w1200">
+[pid: 9215|app: 0|req: 3/3] 223.62.21.145 () {36 vars in 612 bytes} [Tue Jul 14 07:49:48 2020] GET / => generated 218 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+<img src="https://post-phinf.pstatic.net/MjAxOTEyMzFfMTQz/MDAxNTc3NzU4NjE3ODE5.hyQQVHg1LCrJ1Y_J1NPfFIXFt8PXajxhLVxiV2ImdPcg.cHN_veuJwQcRzE8oHOfxjlz_AUXds5sRFrDRBtaEMQ0g.JPEG/%ED%8E%AD%EC%88%98%ED%95%98.jpg?type=w1200">
+[pid: 9215|app: 0|req: 4/4] 221.151.1.47 () {36 vars in 610 bytes} [Tue Jul 14 13:12:52 2020] GET / => generated 218 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+<img src="https://post-phinf.pstatic.net/MjAxOTEyMzFfMTQz/MDAxNTc3NzU4NjE3ODE5.hyQQVHg1LCrJ1Y_J1NPfFIXFt8PXajxhLVxiV2ImdPcg.cHN_veuJwQcRzE8oHOfxjlz_AUXds5sRFrDRBtaEMQ0g.JPEG/%ED%8E%AD%EC%88%98%ED%95%98.jpg?type=w1200">
+[pid: 9215|app: 0|req: 5/5] 83.97.20.21 () {26 vars in 262 bytes} [Tue Jul 14 15:29:18 2020] GET / => generated 218 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+<img src="https://post-phinf.pstatic.net/MjAxOTEyMzFfMTQz/MDAxNTc3NzU4NjE3ODE5.hyQQVHg1LCrJ1Y_J1NPfFIXFt8PXajxhLVxiV2ImdPcg.cHN_veuJwQcRzE8oHOfxjlz_AUXds5sRFrDRBtaEMQ0g.JPEG/%ED%8E%AD%EC%88%98%ED%95%98.jpg?type=w1200">
+[pid: 9215|app: 0|req: 6/6] 209.17.96.162 () {26 vars in 358 bytes} [Tue Jul 14 23:11:36 2020] GET / => generated 218 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+<img src="https://post-phinf.pstatic.net/MjAxOTEyMzFfMTQz/MDAxNTc3NzU4NjE3ODE5.hyQQVHg1LCrJ1Y_J1NPfFIXFt8PXajxhLVxiV2ImdPcg.cHN_veuJwQcRzE8oHOfxjlz_AUXds5sRFrDRBtaEMQ0g.JPEG/%ED%8E%AD%EC%88%98%ED%95%98.jpg?type=w1200">
+[pid: 9215|app: 0|req: 7/7] 209.17.96.90 () {26 vars in 343 bytes} [Wed Jul 15 05:41:40 2020] GET / => generated 218 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 80 bytes (1 switches on core 0)
+<img src="https://post-phinf.pstatic.net/MjAxOTEyMzFfMTQz/MDAxNTc3NzU4NjE3ODE5.hyQQVHg1LCrJ1Y_J1NPfFIXFt8PXajxhLVxiV2ImdPcg.cHN_veuJwQcRzE8oHOfxjlz_AUXds5sRFrDRBtaEMQ0g.JPEG/%ED%8E%AD%EC%88%98%ED%95%98.jpg?type=w1200">
+[pid: 9215|app: 0|req: 8/8] 80.82.77.227 () {30 vars in 343 bytes} [Wed Jul 15 06:13:54 2020] GET / => generated 218 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[uwsgi-http key:  client_addr: 193.27.228.213 client_port: 40246] hr_read(): Connection reset by peer [plugins/http/http.c line 917]
+[uwsgi-http key:  client_addr: 192.35.168.246 client_port: 208] hr_read(): Connection reset by peer [plugins/http/http.c line 917]
+<img src="https://post-phinf.pstatic.net/MjAxOTEyMzFfMTQz/MDAxNTc3NzU4NjE3ODE5.hyQQVHg1LCrJ1Y_J1NPfFIXFt8PXajxhLVxiV2ImdPcg.cHN_veuJwQcRzE8oHOfxjlz_AUXds5sRFrDRBtaEMQ0g.JPEG/%ED%8E%AD%EC%88%98%ED%95%98.jpg?type=w1200">
+[pid: 9215|app: 0|req: 9/9] 192.35.168.246 () {24 vars in 259 bytes} [Wed Jul 15 14:21:33 2020] GET / => generated 218 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+<img src="https://post-phinf.pstatic.net/MjAxOTEyMzFfMTQz/MDAxNTc3NzU4NjE3ODE5.hyQQVHg1LCrJ1Y_J1NPfFIXFt8PXajxhLVxiV2ImdPcg.cHN_veuJwQcRzE8oHOfxjlz_AUXds5sRFrDRBtaEMQ0g.JPEG/%ED%8E%AD%EC%88%98%ED%95%98.jpg?type=w1200">
+[pid: 9215|app: 0|req: 10/10] 192.35.168.246 () {30 vars in 344 bytes} [Wed Jul 15 14:21:33 2020] GET / => generated 218 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[uwsgi-http key:  client_addr: 104.152.52.36 client_port: 51372] hr_read(): Connection reset by peer [plugins/http/http.c line 917]
+[uwsgi-http key:  client_addr: 192.35.169.48 client_port: 15892] hr_read(): Connection reset by peer [plugins/http/http.c line 917]
+<img src="https://post-phinf.pstatic.net/MjAxOTEyMzFfMTQz/MDAxNTc3NzU4NjE3ODE5.hyQQVHg1LCrJ1Y_J1NPfFIXFt8PXajxhLVxiV2ImdPcg.cHN_veuJwQcRzE8oHOfxjlz_AUXds5sRFrDRBtaEMQ0g.JPEG/%ED%8E%AD%EC%88%98%ED%95%98.jpg?type=w1200">
+[pid: 9215|app: 0|req: 11/11] 192.35.169.48 () {24 vars in 258 bytes} [Wed Jul 15 21:05:30 2020] GET / => generated 218 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+<img src="https://post-phinf.pstatic.net/MjAxOTEyMzFfMTQz/MDAxNTc3NzU4NjE3ODE5.hyQQVHg1LCrJ1Y_J1NPfFIXFt8PXajxhLVxiV2ImdPcg.cHN_veuJwQcRzE8oHOfxjlz_AUXds5sRFrDRBtaEMQ0g.JPEG/%ED%8E%AD%EC%88%98%ED%95%98.jpg?type=w1200">
+[pid: 9215|app: 0|req: 12/12] 83.97.20.21 () {26 vars in 262 bytes} [Wed Jul 15 22:12:14 2020] GET / => generated 218 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+<img src="https://post-phinf.pstatic.net/MjAxOTEyMzFfMTQz/MDAxNTc3NzU4NjE3ODE5.hyQQVHg1LCrJ1Y_J1NPfFIXFt8PXajxhLVxiV2ImdPcg.cHN_veuJwQcRzE8oHOfxjlz_AUXds5sRFrDRBtaEMQ0g.JPEG/%ED%8E%AD%EC%88%98%ED%95%98.jpg?type=w1200">
+[pid: 9215|app: 0|req: 13/13] 209.17.97.50 () {26 vars in 343 bytes} [Thu Jul 16 02:26:35 2020] GET / => generated 218 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 80 bytes (1 switches on core 0)
+<img src="https://post-phinf.pstatic.net/MjAxOTEyMzFfMTQz/MDAxNTc3NzU4NjE3ODE5.hyQQVHg1LCrJ1Y_J1NPfFIXFt8PXajxhLVxiV2ImdPcg.cHN_veuJwQcRzE8oHOfxjlz_AUXds5sRFrDRBtaEMQ0g.JPEG/%ED%8E%AD%EC%88%98%ED%95%98.jpg?type=w1200">
+[pid: 9215|app: 0|req: 14/14] 209.17.96.10 () {26 vars in 357 bytes} [Thu Jul 16 02:44:01 2020] GET / => generated 218 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+<img src="https://post-phinf.pstatic.net/MjAxOTEyMzFfMTQz/MDAxNTc3NzU4NjE3ODE5.hyQQVHg1LCrJ1Y_J1NPfFIXFt8PXajxhLVxiV2ImdPcg.cHN_veuJwQcRzE8oHOfxjlz_AUXds5sRFrDRBtaEMQ0g.JPEG/%ED%8E%AD%EC%88%98%ED%95%98.jpg?type=w1200">
+[pid: 9215|app: 0|req: 15/15] 209.17.96.74 () {26 vars in 343 bytes} [Thu Jul 16 21:05:36 2020] GET / => generated 218 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 80 bytes (1 switches on core 0)
+<img src="https://post-phinf.pstatic.net/MjAxOTEyMzFfMTQz/MDAxNTc3NzU4NjE3ODE5.hyQQVHg1LCrJ1Y_J1NPfFIXFt8PXajxhLVxiV2ImdPcg.cHN_veuJwQcRzE8oHOfxjlz_AUXds5sRFrDRBtaEMQ0g.JPEG/%ED%8E%AD%EC%88%98%ED%95%98.jpg?type=w1200">
+[pid: 9215|app: 0|req: 16/16] 209.17.97.90 () {26 vars in 357 bytes} [Thu Jul 16 23:26:56 2020] GET / => generated 218 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+<img src="https://post-phinf.pstatic.net/MjAxOTEyMzFfMTQz/MDAxNTc3NzU4NjE3ODE5.hyQQVHg1LCrJ1Y_J1NPfFIXFt8PXajxhLVxiV2ImdPcg.cHN_veuJwQcRzE8oHOfxjlz_AUXds5sRFrDRBtaEMQ0g.JPEG/%ED%8E%AD%EC%88%98%ED%95%98.jpg?type=w1200">
+[pid: 9215|app: 0|req: 17/17] 83.97.20.21 () {26 vars in 262 bytes} [Fri Jul 17 05:55:07 2020] GET / => generated 218 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+<img src="https://post-phinf.pstatic.net/MjAxOTEyMzFfMTQz/MDAxNTc3NzU4NjE3ODE5.hyQQVHg1LCrJ1Y_J1NPfFIXFt8PXajxhLVxiV2ImdPcg.cHN_veuJwQcRzE8oHOfxjlz_AUXds5sRFrDRBtaEMQ0g.JPEG/%ED%8E%AD%EC%88%98%ED%95%98.jpg?type=w1200">
+[pid: 9215|app: 0|req: 18/18] 209.17.96.130 () {26 vars in 360 bytes} [Fri Jul 17 07:31:59 2020] GET / => generated 218 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+<img src="https://post-phinf.pstatic.net/MjAxOTEyMzFfMTQz/MDAxNTc3NzU4NjE3ODE5.hyQQVHg1LCrJ1Y_J1NPfFIXFt8PXajxhLVxiV2ImdPcg.cHN_veuJwQcRzE8oHOfxjlz_AUXds5sRFrDRBtaEMQ0g.JPEG/%ED%8E%AD%EC%88%98%ED%95%98.jpg?type=w1200">
+[pid: 9215|app: 0|req: 19/19] 209.17.96.66 () {26 vars in 343 bytes} [Fri Jul 17 23:46:06 2020] GET / => generated 218 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 80 bytes (1 switches on core 0)
+<img src="https://post-phinf.pstatic.net/MjAxOTEyMzFfMTQz/MDAxNTc3NzU4NjE3ODE5.hyQQVHg1LCrJ1Y_J1NPfFIXFt8PXajxhLVxiV2ImdPcg.cHN_veuJwQcRzE8oHOfxjlz_AUXds5sRFrDRBtaEMQ0g.JPEG/%ED%8E%AD%EC%88%98%ED%95%98.jpg?type=w1200">
+[pid: 9215|app: 0|req: 20/20] 92.118.160.17 () {26 vars in 399 bytes} [Sat Jul 18 00:55:13 2020] GET / => generated 218 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[uwsgi-http key:  client_addr: 192.35.169.48 client_port: 33817] hr_read(): Connection reset by peer [plugins/http/http.c line 917]
+<img src="https://post-phinf.pstatic.net/MjAxOTEyMzFfMTQz/MDAxNTc3NzU4NjE3ODE5.hyQQVHg1LCrJ1Y_J1NPfFIXFt8PXajxhLVxiV2ImdPcg.cHN_veuJwQcRzE8oHOfxjlz_AUXds5sRFrDRBtaEMQ0g.JPEG/%ED%8E%AD%EC%88%98%ED%95%98.jpg?type=w1200">
+[pid: 9215|app: 0|req: 21/21] 192.35.169.48 () {24 vars in 258 bytes} [Sat Jul 18 01:35:34 2020] GET / => generated 218 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+<img src="https://post-phinf.pstatic.net/MjAxOTEyMzFfMTQz/MDAxNTc3NzU4NjE3ODE5.hyQQVHg1LCrJ1Y_J1NPfFIXFt8PXajxhLVxiV2ImdPcg.cHN_veuJwQcRzE8oHOfxjlz_AUXds5sRFrDRBtaEMQ0g.JPEG/%ED%8E%AD%EC%88%98%ED%95%98.jpg?type=w1200">
+[pid: 9215|app: 0|req: 22/22] 209.17.96.66 () {26 vars in 357 bytes} [Sat Jul 18 03:56:29 2020] GET / => generated 218 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+<img src="https://post-phinf.pstatic.net/MjAxOTEyMzFfMTQz/MDAxNTc3NzU4NjE3ODE5.hyQQVHg1LCrJ1Y_J1NPfFIXFt8PXajxhLVxiV2ImdPcg.cHN_veuJwQcRzE8oHOfxjlz_AUXds5sRFrDRBtaEMQ0g.JPEG/%ED%8E%AD%EC%88%98%ED%95%98.jpg?type=w1200">
+[pid: 9215|app: 0|req: 23/23] 92.118.161.29 () {26 vars in 385 bytes} [Sat Jul 18 04:21:28 2020] GET / => generated 218 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 80 bytes (1 switches on core 0)
+[uwsgi-http key:  client_addr: 80.82.70.118 client_port: 24810] hr_read(): Connection reset by peer [plugins/http/http.c line 917]
+<img src="https://post-phinf.pstatic.net/MjAxOTEyMzFfMTQz/MDAxNTc3NzU4NjE3ODE5.hyQQVHg1LCrJ1Y_J1NPfFIXFt8PXajxhLVxiV2ImdPcg.cHN_veuJwQcRzE8oHOfxjlz_AUXds5sRFrDRBtaEMQ0g.JPEG/%ED%8E%AD%EC%88%98%ED%95%98.jpg?type=w1200">
+[pid: 9215|app: 0|req: 24/24] 83.97.20.21 () {26 vars in 262 bytes} [Sat Jul 18 13:01:39 2020] GET / => generated 218 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+<img src="https://post-phinf.pstatic.net/MjAxOTEyMzFfMTQz/MDAxNTc3NzU4NjE3ODE5.hyQQVHg1LCrJ1Y_J1NPfFIXFt8PXajxhLVxiV2ImdPcg.cHN_veuJwQcRzE8oHOfxjlz_AUXds5sRFrDRBtaEMQ0g.JPEG/%ED%8E%AD%EC%88%98%ED%95%98.jpg?type=w1200">
+[pid: 9215|app: 0|req: 25/25] 209.17.96.98 () {26 vars in 343 bytes} [Sat Jul 18 21:09:40 2020] GET / => generated 218 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 80 bytes (1 switches on core 0)
+<img src="https://post-phinf.pstatic.net/MjAxOTEyMzFfMTQz/MDAxNTc3NzU4NjE3ODE5.hyQQVHg1LCrJ1Y_J1NPfFIXFt8PXajxhLVxiV2ImdPcg.cHN_veuJwQcRzE8oHOfxjlz_AUXds5sRFrDRBtaEMQ0g.JPEG/%ED%8E%AD%EC%88%98%ED%95%98.jpg?type=w1200">
+[pid: 9215|app: 0|req: 26/26] 209.17.97.50 () {26 vars in 357 bytes} [Sat Jul 18 21:33:33 2020] GET / => generated 218 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+<img src="https://post-phinf.pstatic.net/MjAxOTEyMzFfMTQz/MDAxNTc3NzU4NjE3ODE5.hyQQVHg1LCrJ1Y_J1NPfFIXFt8PXajxhLVxiV2ImdPcg.cHN_veuJwQcRzE8oHOfxjlz_AUXds5sRFrDRBtaEMQ0g.JPEG/%ED%8E%AD%EC%88%98%ED%95%98.jpg?type=w1200">
+[pid: 9215|app: 0|req: 27/27] 83.97.20.21 () {26 vars in 262 bytes} [Sun Jul 19 19:38:15 2020] GET / => generated 218 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+<img src="https://post-phinf.pstatic.net/MjAxOTEyMzFfMTQz/MDAxNTc3NzU4NjE3ODE5.hyQQVHg1LCrJ1Y_J1NPfFIXFt8PXajxhLVxiV2ImdPcg.cHN_veuJwQcRzE8oHOfxjlz_AUXds5sRFrDRBtaEMQ0g.JPEG/%ED%8E%AD%EC%88%98%ED%95%98.jpg?type=w1200">
+[pid: 9215|app: 0|req: 28/28] 192.241.239.56 () {30 vars in 345 bytes} [Mon Jul 20 00:06:32 2020] GET / => generated 218 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+<img src="https://post-phinf.pstatic.net/MjAxOTEyMzFfMTQz/MDAxNTc3NzU4NjE3ODE5.hyQQVHg1LCrJ1Y_J1NPfFIXFt8PXajxhLVxiV2ImdPcg.cHN_veuJwQcRzE8oHOfxjlz_AUXds5sRFrDRBtaEMQ0g.JPEG/%ED%8E%AD%EC%88%98%ED%95%98.jpg?type=w1200">
+[pid: 9215|app: 0|req: 29/29] 209.17.97.90 () {26 vars in 343 bytes} [Mon Jul 20 02:42:48 2020] GET / => generated 218 bytes in 0 msecs (HTTP/1.0 200) 2 headers in 80 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Mon Jul 20 05:20:43 2020] ***
+compiled with version: 7.2.1 20170915 (Red Hat 7.2.1-2) on 30 June 2020 06:29:41
+os: Linux-4.14.181-108.257.amzn1.x86_64 #1 SMP Wed May 27 02:43:03 UTC 2020
+nodename: ip-172-31-38-48
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ec2-user/src_uwsgi
+detected binary path: /home/ec2-user/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ec2-user/src_uwsgi
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3858
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :5000 fd 4
+spawned uWSGI http 1 (pid: 32029)
+uwsgi socket 0 bound to TCP address 127.0.0.1:33315 (port auto-assigned) fd 3
+Python version: 3.6.10 (default, Feb 10 2020, 19:55:14)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-28)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xa98a40
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72904 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xa98a40 pid: 32028 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 32028, cores: 1)
+<img src="https://post-phinf.pstatic.net/MjAxOTEyMzFfMTQz/MDAxNTc3NzU4NjE3ODE5.hyQQVHg1LCrJ1Y_J1NPfFIXFt8PXajxhLVxiV2ImdPcg.cHN_veuJwQcRzE8oHOfxjlz_AUXds5sRFrDRBtaEMQ0g.JPEG/%ED%8E%AD%EC%88%98%ED%95%98.jpg?type=w1200">
+[pid: 32028|app: 0|req: 1/1] 218.153.89.113 () {38 vars in 722 bytes} [Mon Jul 20 05:21:27 2020] GET / => generated 218 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Mon Jul 20 05:30:09 2020] ***
+compiled with version: 7.2.1 20170915 (Red Hat 7.2.1-2) on 30 June 2020 06:29:41
+os: Linux-4.14.181-108.257.amzn1.x86_64 #1 SMP Wed May 27 02:43:03 UTC 2020
+nodename: ip-172-31-38-48
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ec2-user/src_uwsgi
+detected binary path: /home/ec2-user/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ec2-user/src_uwsgi
+your processes number limit is 3858
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :5000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:44299 (port auto-assigned) fd 3
+Python version: 3.6.10 (default, Feb 10 2020, 19:55:14)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-28)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xe8fb10
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145808 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0xe8fb10 pid: 32066 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 32066)
+spawned uWSGI worker 1 (pid: 32068, cores: 1)
+spawned uWSGI http 1 (pid: 32069)
+gateway "uWSGI http 1" has been buried (pid: 32069)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 32068)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/ec2-user/src_uwsgi
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (127.0.0.1:44299)
+running /home/ec2-user/.local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgiconfig.ini
+*** Starting uWSGI 2.0.19.1 (64bit) on [Mon Jul 20 05:34:19 2020] ***
+compiled with version: 7.2.1 20170915 (Red Hat 7.2.1-2) on 30 June 2020 06:29:41
+os: Linux-4.14.181-108.257.amzn1.x86_64 #1 SMP Wed May 27 02:43:03 UTC 2020
+nodename: ip-172-31-38-48
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ec2-user/src_uwsgi
+detected binary path: /home/ec2-user/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ec2-user/src_uwsgi
+your processes number limit is 3858
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :5000 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:37535 (port auto-assigned) fd 4
+Python version: 3.6.10 (default, Feb 10 2020, 19:55:14)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-28)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x15249c0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145808 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x15249c0 pid: 32066 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 32066)
+spawned uWSGI worker 1 (pid: 32082, cores: 1)
+spawned uWSGI http 1 (pid: 32083)
+<img src="https://post-phinf.pstatic.net/MjAxOTEyMzFfMTQz/MDAxNTc3NzU4NjE3ODE5.hyQQVHg1LCrJ1Y_J1NPfFIXFt8PXajxhLVxiV2ImdPcg.cHN_veuJwQcRzE8oHOfxjlz_AUXds5sRFrDRBtaEMQ0g.JPEG/%ED%8E%AD%EC%88%98%ED%95%98.jpg?type=w1200">
+[pid: 32082|app: 0|req: 1/1] 209.17.96.82 () {26 vars in 357 bytes} [Mon Jul 20 05:40:41 2020] GET / => generated 218 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
